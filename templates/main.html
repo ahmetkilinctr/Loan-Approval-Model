@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Prediction Input Form</title>
+</head>
+<body>
+    <h1>Model Prediction Input Form</h1>
+    <form action="/prediction" method="POST">
+        <label for="input1">Number of Dependents:</label>
+        <input type="number" id="input1" name="input1"><br><br>
+
+        <label for="input2">City:</label>
+        <select id="input2" name="input2">
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+            <option value="Bursa">Bursa</option>
+            <option value="Erzurum">Erzurum</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="input3">Education:</label>
+        <select id="input3" name="input3">
+            <option value="Not Graduate">Not Graduate</option>
+            <option value="Graduate">Graduate</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="input4">Self Employed:</label>
+        <select id="input4" name="input4">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <label for="input5">Income Annum:</label>
+        <input type="number" id="input5" name="input5"><br><br>
+
+        <label for="input6">Loan Amount:</label>
+        <input type="number" id="input6" name="input6"><br><br>
+
+        <label for="input7">Loan Term:</label>
+        <input type="number" id="input7" name="input7"><br><br>
+
+        <label for="input8">Cibil Score:</label>
+        <input type="number" id="input8" name="input8"><br><br>
+
+        <label for="input9">Residential Asset Value:</label>
+        <input type="number" id="input9" name="input9"><br><br>
+
+        <label for="input10">Commercial Asset Value:</label>
+        <input type="number" id="input10" name="input10"><br><br>
+
+        <label for="input11">Luxury Asset Value:</label>
+        <input type="number" id="input11" name="input11"><br><br>
+
+        <label for="input12">Bank Asset Value:</label>
+        <input type="number" id="input12" name="input12"><br><br>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
