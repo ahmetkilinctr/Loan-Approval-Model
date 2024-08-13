@@ -5,6 +5,9 @@ This is a loan approval prediction model. Application gets input from html form 
 
 ## 1.Method: Run on Docker without building
 
+* Download project: git clone https://github.com/ahmetkilinctr/Loan-Approval-Model.git <br />
+cd flask-iris-classification 
+
 ### Step 1: Run docker
 
 docker run --rm -d -p 8080:8080 ahbekadabra/loan_app:2024-08
